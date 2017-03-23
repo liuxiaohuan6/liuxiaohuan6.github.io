@@ -1,0 +1,108 @@
+#goodscontent{
+    width: 1210px;
+    height: 600px;
+    margin: 0 auto;
+    .goods{
+        width: 900px;
+        height: 600px;
+        margin: 20px auto;
+        .pic{
+            float: left;
+            width: 400px;
+            height: 400px;
+            position: relative;
+            .smallpic{
+                width: 400px;
+                height: 400px;
+                cursor: all-scroll;
+                position: relative;
+                .box{
+                    width: 200px;
+                    height: 200px;
+                    position: absolute;
+                    opacity: 0.5;
+                    background-color: pink;
+                    z-index: 2;
+                    display: none;
+                }
+                .fly{
+                    width: 400px;
+                    height: 400px;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: 3;
+                    display: none;
+                }
+                img{
+                    width: 400px;
+                    height: 400px;
+                    position: absolute;
+                }
+            }
+            .largepic{
+                width: 400px;
+                height: 400px;
+                overflow: hidden;
+                position: absolute;
+                left: 420px;
+                top: 0;
+                background-color: pink;
+                display: none;
+                img{
+                    width: 800px;
+                    height: 800px;
+                    position: absolute;
+                }
+            }
+        }
+    }
+    .goodsdetail{
+        width: 450px;
+        height: 600px;
+        float: left;
+        margin-left: 30px;
+        .goodsname{
+            font-size: 30px;
+            color: orangered;
+            line-height: 50px;
+        }
+        .goodsprice{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .goodsnum{
+            width: 200px;
+            height: 34px;
+            margin: 20px 0;
+            span{
+                width: 30px;
+                height: 34px;
+                text-align: center;
+                display: block;
+                float: left;
+                font-size: 20px;
+                line-height: 30px;
+                cursor: pointer;
+                background-color: pink;
+                
+            }
+            input{
+                float: left;
+                width: 60px;
+                height: 28px;
+                text-align: center;
+            }
+        }
+        .addcar{
+            width: 200px;
+            height: 40px;
+            font-size: 24px;
+            text-align: center;
+            line-height: 40px;
+            background-color: orangered;
+            cursor: pointer;
+        }
+        
+    }
+}

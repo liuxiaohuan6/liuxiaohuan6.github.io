@@ -1,0 +1,27 @@
+#xiding {
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  top: 0;
+  background: pink;
+  display: none;
+}
+#xiding ul {
+  width: 700px;
+  height: 30px;
+  margin: 0 auto;
+}
+#xiding ul li {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  float: left;
+}
+#xiding ul li:hover {
+  color: white;
+  background-color: orange;
+}
+/*# sourceMappingURL=xiding.css.map */

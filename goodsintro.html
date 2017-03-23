@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/content.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="css/mian.css" />
+	<link rel="stylesheet" href="css/goodsintro.css" />
+	<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+	
+	
+	<body>
+		<div id="header"></div>
+		<script>
+			$("#header").load("header.html",function(){
+				var $shopcar=$("#contentnav").find(".nav_car");
+				$shopcar.on("click",function(){
+				window.open("shopcar.html");
+
+			})
+			});
+		</script>
+		<div id="goodscontent">
+			<div class="goods">
+				<div class="pic">
+					<div class="smallpic">
+						<div class="box"></div>
+						
+						
+					</div>
+					<div class="largepic">
+						
+					</div>
+				</div>
+				<div class="goodsdetail">
+					<div class="goodsname"></div>
+					<div class="goodsprice"></div>
+					<div class="goodsnum">
+						<span class="reduce">-</span>
+						<input class="num" value="1"/>
+						<span class="add">+</span>
+					</div>
+					<div class="addcar">加入购物车</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/goodsintro.js" ></script>
+		<div id="footer"></div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

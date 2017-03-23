@@ -1,0 +1,46 @@
+a,b,body,dd,div,dl,dt,em,form,h1,h2,h3,h4,h5,h6,html,i,img,label,legend,li,ol,p,span,strong,u,ul{margin:0;padding:0;font-size: 12px;}
+li{list-style: none;}
+a{text-decoration: none;color: black;}
+
+#head{width: 100%;height: 30px;background-color:#e6e6e6 ;font-size: 12px;}
+#head .content{width: 1210px;height: 30px;margin: 0 auto; position: relative;}
+#head .content .mydress{width: 100px;height: 30px;cursor: pointer;position: relative;float: left;}
+#head .content .mydress span{width: 100px;height: 30px;line-height: 30px;text-align: center;
+							color: white;display: block;background-color: orangered}
+#head .content .dress{width: 400px;height: 30px;cursor: pointer;position: absolute;top: 30px;left: 0;text-align: center;display: none;}
+#head .content .dress .city{width: 158px;}
+#head .content .dress .region{width: 131px;}
+#head .welcome{height: 30px;width: 200px;float: left;line-height: 30px;margin-left: 100px;}
+#head .welcome span{width: 30px;height: 30px;color: orange;cursor: pointer;}
+#head .content .nav{float: left;width: 440px;height: 30px;margin-left: 340px;position:relative;}
+#head .content .nav .ul1 li{list-style: none;float: left;line-height: 30px;height: 30px;cursor: pointer;}
+#head .content .nav .ul1 li a{text-decoration: none;display: block;padding: 0 10px;color: black;}
+#head .content .nav .ul1 li:hover a{background-color: pink;color: white;}
+#head .content .nav .mybas{position: absolute;top: 30px;left: 122px;;width: 48px;overflow: hidden;height: 0;}
+#head .content .nav .mybas ul li{margin-bottom: 5px;}
+#head .content .nav .mybas ul li:hover a{color: orangered;}
+
+/*搜索部分*/
+#contentnav{width: 1210px;height: 110px;margin: 20px auto;}
+#contentnav .logo{float: left;width: 240px;height: 120px;cursor: pointer;}
+#contentnav .logo span{float:left;font-size: 30px;font-weight: bold;margin-top: 30px;}
+#contentnav .logo img{width: 110px;height: 110px;float: left;}
+#contentnav .search{float: left;margin-left: 180px;margin-top: 30px;}
+#contentnav .search input{width: 350px;height: 34px;}
+#contentnav .search button{width: 60px;height: 40px;border: 0;background-color: orangered;margin-left: -8px;}
+#contentnav .nav_car{float: left;width: 110px;height: 40px;margin-left: 200px;line-height: 35px;
+					border: 1px solid darkgray;margin-top: 30px;cursor: pointer;}
+#contentnav .nav_car img{float: left;}
+#contentnav .nav_car p{float: left;}
+#contentnav .nav_car p span{color: orangered;}
+#contentnav .nav_sort{float: left;margin-left: 180px;}
+#contentnav .nav_sort li{float: left;height: 30px;line-height: 30px;cursor: pointer;}
+#contentnav .nav_sort li a{display: block;padding: 0 10px;}
+#contentnav .nav_sort li a:hover{color: red;}
+
+
+
+
+
+
+

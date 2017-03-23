@@ -1,0 +1,38 @@
+#productcontent {
+  width: 1210px;
+  margin: 0 auto;
+}
+#productcontent .mainpic img {
+  width: 1210px;
+  height: 450px;
+}
+#productcontent .allproduct {
+  width: 970px;
+  margin: 20px auto;
+}
+#productcontent .allproduct ul {
+  width: 970px;
+  height: 2000px;
+}
+#productcontent .allproduct ul li {
+  width: 230px;
+  height: 430px;
+  float: left;
+  border: 1px solid #f6f6f6;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+#productcontent .allproduct ul li:hover {
+  box-shadow: 5px 5px #F6F6F6;
+}
+#productcontent .allproduct ul li span {
+  font-size: 30px;
+  display: block;
+  line-height: 50px;
+  color: orangered;
+}
+#productcontent .allproduct ul li p {
+  text-indext: 20px;
+}
+/*# sourceMappingURL=product.css.map */

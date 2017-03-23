@@ -1,0 +1,388 @@
+#mainnav {
+  width: 1210px;
+  height: 40px;
+  margin: 0 auto;
+  border-bottom: 2px solid orangered;
+  font-family: "微软雅黑";
+}
+#mainnav p {
+  float: left;
+  width: 210px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  background-color: orangered;
+  text-indent: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+#mainnav ul {
+  height: 40px;
+  float: left;
+}
+#mainnav ul li {
+  float: left;
+  cursor: pointer;
+  margin: 0 20px;
+  line-height: 40px;
+  font-size: 18px;
+}
+#mainnav ul li:hover {
+  color: orangered;
+}
+#connav {
+  width: 1210px;
+  height: 465px;
+  margin: 0 auto;
+}
+#connav .nav {
+  float: left;
+  width: 210px;
+  height: 465px;
+  position: relative;
+}
+#connav .nav ul {
+  width: 210px;
+  height: 465px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+#connav .nav ul li {
+  width: 209px;
+  height: 31px;
+  margin-left: 1px;
+}
+#connav .nav ul li.active {
+  background-color: white;
+  color: orange;
+}
+#connav .nav ul li h3 {
+  text-indent: 10px;
+  line-height: 31px;
+  font-size: 16px;
+  float: left;
+}
+#connav .nav ul li span {
+  float: left;
+  margin-left: 190px;
+  margin-top: -25px;
+  font-size: 16px;
+}
+#connav .nav ul li div {
+  position: absolute;
+  height: 456px;
+  width: 500px;
+  background: white;
+  left: 210px;
+  top: 0;
+  display: none;
+  z-index: 10;
+}
+#connav .mianlunbo {
+  width: 1000px;
+  height: 454px;
+  float: left;
+  background-color: pink;
+  position: relative;
+}
+#connav .mianlunbo .imgs {
+  width: 1000px;
+  height: 454px;
+}
+#connav .mianlunbo .imgs img {
+  width: 1000px;
+  height: 454px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#connav .mianlunbo .prv {
+  width: 20px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  line-height: 40px;
+  background-color: cyan;
+  position: absolute;
+  left: 0;
+  top: 210px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+#connav .mianlunbo .next {
+  width: 20px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  line-height: 40px;
+  background-color: cyan;
+  position: absolute;
+  right: 0;
+  top: 210px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+#connav .mianlunbo .dots {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  left: 450px;
+  bottom: 20px;
+}
+#connav .mianlunbo .dots span {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 5px;
+  cursor: pointer;
+}
+#connav .mianlunbo .dots span.active {
+  background-color: orangered;
+}
+#recom {
+  width: 1210px;
+  height: 500px;
+  margin: 10px auto;
+  position: relative;
+}
+#recom .title {
+  width: 1210px;
+  height: 30px;
+  background-color: orangered;
+}
+#recom .title p {
+  color: white;
+  font-size: 18px;
+  height: 30px;
+  width: 210px;
+  line-height: 30px;
+  text-indent: 10px;
+  float: left;
+}
+#recom .title ul {
+  float: left;
+}
+#recom .title ul li {
+  color: white;
+  float: left;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 30px;
+  cursor: pointer;
+}
+#recom .title ul li.active {
+  background-color: orange;
+  color: orangered;
+}
+#recom .mainimg {
+  width: 1210px;
+  height: 470px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 30px;
+}
+#recom .mainimg img {
+  position: absolute;
+  width: 1700px;
+  height: 470px;
+  left: -255px;
+}
+#recom .recomimg {
+  width: 1210px;
+  height: 470px;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  display: none;
+}
+#recom .recomimg img {
+  float: left;
+  width: 605px;
+  height: 235px;
+}
+#mainfloor {
+  width: 1210px;
+  margin: 20px auto;
+}
+#mainfloor .floor1 {
+  width: 1210px;
+  height: 600px;
+  margin: 10px auto;
+}
+#mainfloor .floor1 .top {
+  width: 1210px;
+  height: 30px;
+  background-color: orange;
+}
+#mainfloor .floor1 .top .title {
+  width: 160px;
+  height: 30px;
+  background-color: cyan;
+  text-indent: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  float: left;
+}
+#mainfloor .floor1 .top ul {
+  float: left;
+  height: 30px;
+  position: relative;
+  margin-left: 200px;
+}
+#mainfloor .floor1 .top ul li {
+  float: left;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 30px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+}
+#mainfloor .floor1 .top ul div {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  opacity: 0.5;
+  background-color: orangered;
+  left: 0;
+  top: 0;
+}
+#mainfloor .floor1 .left {
+  width: 330px;
+  height: 480px;
+  float: left;
+  position: relative;
+}
+#mainfloor .floor1 .left img {
+  position: absolute;
+}
+#mainfloor .floor1 .left div {
+  width: 330px;
+  height: 230px;
+  position: absolute;
+  left: 0;
+  top: 250px;
+}
+#mainfloor .floor1 .left div p {
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+#mainfloor .floor1 .left div ul {
+  width: 330px;
+  height: 200px;
+}
+#mainfloor .floor1 .left div ul li {
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#mainfloor .floor1 .left div ul li:hover {
+  color: orange;
+}
+#mainfloor .floor1 .right {
+  float: left;
+  width: 880px;
+  height: 480px;
+  position: relative;
+}
+#mainfloor .floor1 .right ul {
+  width: 880px;
+  height: 480px;
+}
+#mainfloor .floor1 .right ul li {
+  float: left;
+  border-right: 1px solid darkgray;
+}
+#mainfloor .floor1 .right ul li.l1 {
+  width: 439px;
+  height: 239px;
+}
+#mainfloor .floor1 .right ul li.l1 .lunbo {
+  width: 439px;
+  height: 239px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#mainfloor .floor1 .right ul li.l1 .lunbo ul {
+  width: 2200px;
+  height: 239px;
+  position: absolute;
+}
+#mainfloor .floor1 .right ul li.l1 .lunbo ul li {
+  float: left;
+  border: 0;
+}
+#mainfloor .floor1 .right ul li.l1 .lunbo .spanlist {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  left: 170px;
+  bottom: 10px;
+}
+#mainfloor .floor1 .right ul li.l1 .lunbo .spanlist span {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 5px;
+}
+#mainfloor .floor1 .right ul li.l1 .lunbo .spanlist span.active {
+  background-color: cyan;
+}
+#mainfloor .floor1 .right ul li.l1 .lunbo .control {
+  width: 20px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 105px;
+  background-color: orange;
+}
+#mainfloor .floor1 .right ul li.l1 .lunbo .control.next {
+  right: 0;
+}
+#mainfloor .floor1 .right ul li.l1 .lunbo .control.prv {
+  left: 0;
+}
+#floor {
+  width: 30px;
+  height: 270px;
+  position: fixed;
+  left: 0;
+  top: 400px;
+  display: none;
+}
+#floor ul li {
+  width: 30px;
+  height: 29px;
+  line-height: 29px;
+  text-align: center;
+  font-size: 16px;
+  border-bottom: 1px solid orangered;
+  cursor: pointer;
+}
+#floor ul li.active {
+  color: white;
+  background-color: orangered;
+  border-bottom-color: white;
+}
+/*# sourceMappingURL=content.css.map */

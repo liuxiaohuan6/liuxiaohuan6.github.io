@@ -1,0 +1,107 @@
+#goodscontent {
+  width: 1210px;
+  height: 600px;
+  margin: 0 auto;
+}
+#goodscontent .goods {
+  width: 900px;
+  height: 600px;
+  margin: 20px auto;
+}
+#goodscontent .goods .pic {
+  float: left;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+#goodscontent .goods .pic .smallpic {
+  width: 400px;
+  height: 400px;
+  cursor: all-scroll;
+  position: relative;
+}
+#goodscontent .goods .pic .smallpic .box {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  opacity: 0.5;
+  background-color: pink;
+  z-index: 2;
+  display: none;
+}
+#goodscontent .goods .pic .smallpic .fly {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  display: none;
+}
+#goodscontent .goods .pic .smallpic img {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+#goodscontent .goods .pic .largepic {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  position: absolute;
+  left: 420px;
+  top: 0;
+  background-color: pink;
+  display: none;
+}
+#goodscontent .goods .pic .largepic img {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+}
+#goodscontent .goodsdetail {
+  width: 450px;
+  height: 600px;
+  float: left;
+  margin-left: 30px;
+}
+#goodscontent .goodsdetail .goodsname {
+  font-size: 30px;
+  color: orangered;
+  line-height: 50px;
+}
+#goodscontent .goodsdetail .goodsprice {
+  font-size: 20px;
+  line-height: 30px;
+}
+#goodscontent .goodsdetail .goodsnum {
+  width: 200px;
+  height: 34px;
+  margin: 20px 0;
+}
+#goodscontent .goodsdetail .goodsnum span {
+  width: 30px;
+  height: 34px;
+  text-align: center;
+  display: block;
+  float: left;
+  font-size: 20px;
+  line-height: 30px;
+  cursor: pointer;
+  background-color: pink;
+}
+#goodscontent .goodsdetail .goodsnum input {
+  float: left;
+  width: 60px;
+  height: 28px;
+  text-align: center;
+}
+#goodscontent .goodsdetail .addcar {
+  width: 200px;
+  height: 40px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 40px;
+  background-color: orangered;
+  cursor: pointer;
+}
+/*# sourceMappingURL=goodsintro.css.map */

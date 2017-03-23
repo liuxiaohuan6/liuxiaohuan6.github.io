@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/content.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/mian.css" />
+		<link rel="stylesheet" href="css/shopcar.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/shopcar.js" ></script>
+	
+		
+	</head>
+	<body>
+		<div id="header"></div>
+		<script>
+			$("#header").load("header.html",function(){
+				var $shopcar=$("#contentnav").find(".nav_car");
+				$shopcar.on("click",function(){
+					window.open("shopcar.html");
+			})
+			});
+		</script>
+		<div id="shopcontent">
+			<div class="sort">
+				<button>价格升序排列</button>
+			</div>
+			<table>
+				<tr class="tr1">
+					<th>商品图</th>
+					<th>商品名</th>
+					<th>商品价格</th>
+					<th>商品数量</th>
+					<th>商品操作</th>
+				</tr>
+				
+			</table>
+		</div>
+		<div id="footer"></div>
+	
+	</body>
+</html>
